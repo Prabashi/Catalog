@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zTvsLUJ7dxEGpuStBTjZydGmSdg6xWjH5+wuUfaZDZ2zzrCG4EyQW4C10ypPq0/S5cie9WIIK5pYIDljmKmegQ==",
+  "success": true,
+  "projectFilePath": "/Users/prabhashi/Documents/new projects/C# projects/CatalogAPI/Catalog/Catalog.csproj",
+  "expectedPackageFiles": [
+    "/Users/prabhashi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/prabhashi/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/prabhashi/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/prabhashi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/prabhashi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/prabhashi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
