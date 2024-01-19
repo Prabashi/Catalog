@@ -26,7 +26,11 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
 // Register the dependencies
 builder.Services.AddSingleton<IItemsRepository, MongoDbItemsRepository>();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    // Disabling the default behaviour of .NET removing Async suffix from all methods at run time
+    options.SuppressAsyncSuffixInActionNames = false;
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
